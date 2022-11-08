@@ -1,5 +1,5 @@
 name: sam checking
-on: workflow dispatch
+on: workflow_dispatch
 
 jobs:
   infra_sam:

@@ -1,0 +1,10 @@
+name: sam checking
+on: workflow dispatch
+
+jobs:
+  infra_sam:
+    runs-on: ubuntu-latest
+    steps:
+      - name: sam cli verification
+        run: |
+          sam --version
